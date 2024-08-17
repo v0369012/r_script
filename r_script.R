@@ -12,13 +12,14 @@
 #    -s, --second_number Input second number
 
 # R package
-box::use(argparser[arg_parser, add_argument, parse_args])
+box::use(argparser[arg_parser, add_argument, parse_args], glue[glue])
 
 # load module
 box::use(modules/func[plus_number])
+box::use(modules/global[...])
 
 # Create a parser
-p <- arg_parser("plus two number")
+p <- arg_parser(glue("plus two number. (version: {VERSION})"))
 
 # Add command line arguments
 p <- add_argument(p, "--first_number",  help="first number to plus", type="numeric", default = 2)

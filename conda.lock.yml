@@ -74,6 +74,8 @@ dependencies:
   - r-argparser=0.7.2=r43hc72bb7e_1
   - r-base=4.3.3=h9967228_14
   - r-box=1.2.0=r43h57805ef_0
+  - r-glue=1.7.0=r43hb1dbf0f_1
+  - r-yaml=2.3.10=r43hdb488b9_0
   - readline=8.2=h8228510_1
   - sed=4.8=he412f7d_0
   - sysroot_linux-64=2.17=h4a8ded7_16
